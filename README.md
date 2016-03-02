@@ -11,6 +11,6 @@ automatically and giving you the output in a popup.
 Installation
 ============
 
-Using Vundle: `:PluginInstall 'hypothesist/coala-vim'`
+Using Vundle: `:PluginInstall 'coala-analyzer/coala-vim'`
 
 Demo: https://asciinema.org/a/3gxhsunm4cap876j2bdrkw705
