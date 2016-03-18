@@ -8,6 +8,12 @@ This is a vim/gvim extension for coala.
 Simply save your file after loading it and you'll have coala running
 automatically and giving you the output in a popup.
 
+State
+=====
+
+This plugin is rather young. It is usable but beware of bugs! We'd love to hear
+from you, especially if any issues do occur!
+
 Installation
 ============
 
