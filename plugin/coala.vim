@@ -63,5 +63,3 @@ function! coala#run()
 endfunction
 
 au BufWritePost * call s:WritePostHook()
-
-
