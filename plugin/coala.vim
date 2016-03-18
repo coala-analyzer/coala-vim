@@ -26,7 +26,7 @@ function s:RunLinter()
 	let l:temp_file = tempname()
 	set cmdheight=2
 	echo "Running coala... When this finishes, you will see a popup if there are any errors."
-	silent execute "!cd ".s:wd." && coala-json --find-config --limit-files=\"".expand('%:p')."\" | python ".s:filename."\/jsonp.py > " . l:temp_file
+	silent execute "!cd ".s:wd." && coala-json --find-config --limit-files=\"".expand('%:p')."\" | python2 ".s:filename."\/jsonp.py > " . l:temp_file
 	if v:shell_error
 		set errorformat=L%l\\:\ %m
 		copen
