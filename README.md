@@ -11,6 +11,12 @@ automatically and giving you the output in a popup.
 Installation
 ============
 
-Using Vundle: `:PluginInstall 'coala-analyzer/coala-vim'`
+Just run
+
+```
+cp plugin/* ~/.vim/plugin/
+```
+
+and enjoy vim showing you results on save!
 
 Demo: https://asciinema.org/a/3gxhsunm4cap876j2bdrkw705
