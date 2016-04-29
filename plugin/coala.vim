@@ -24,7 +24,6 @@ function s:RunLinter()
     endif
 
     let l:temp_file = tempname()
-    set cmdheight=2
     echo "Running coala... When this finishes, you will see a popup if there are any errors."
     silent execute "!cd ".s:wd." && coala-format --find-config --limit-files=\"".expand('%:p')."\" -S format_str=L{line}:{message} > " . l:temp_file
     if v:shell_error
