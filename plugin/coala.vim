@@ -28,8 +28,14 @@ function s:RunLinter()
     silent execute "!cd ".s:wd." && coala-format --find-config --limit-files=\"".expand('%:p')."\" -S format_str=L{line}:{message} > " . l:temp_file
     if v:shell_error
         set errorformat=L%l\\:%m
-        copen
         execute "cgetfile " . l:temp_file
+        redir => l:errors
+        silent clist
+        redir END
+        if l:errors =~ "The requested coafile" && errors =~ "does not exist"
+            call setqflist([])
+        endif
+        cwindow
     else
         call setqflist([])
         cclose
