@@ -1,19 +1,19 @@
 [vim]
 files = **/*.vim
 bears = SpaceConsistencyBear
-use_spaces = 1
+use_spaces = True
 default_actions = SpaceConsistencyBear: ApplyPatchAction
 
 [python]
 files = **/*.py
 bears = SpaceConsistencyBear
-use_spaces = 1
+use_spaces = True
 default_actions = SpaceConsistencyBear: ApplyPatchAction
 
 [markdown]
 files = **/*.md
 bears = SpaceConsistencyBear
-use_spaces = 1
+use_spaces = True
 default_actions = SpaceConsistencyBear: ApplyPatchAction
 
 [commit]
