@@ -1,6 +1,8 @@
 coala-vim: coala extension for vim/gvim
 =======================================
 
+### Note: We are moving away from this plugin. [neomake](https://github.com/neomake/neomake) is a better alternative with more features.
+
 coala is a simple static code analysis program that is completely modular.
 
 This is a vim/gvim extension for coala.
