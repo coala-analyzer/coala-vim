@@ -1,7 +1,7 @@
 " g:linters_automatic_on_save is a global flag for enabling/disabling the
 " automatic running of the linters plugin on every write.
 if !exists('g:linters_automatic_on_save')
-    let g:linters_automatic_on_save = 1
+    let g:linters_automatic_on_save = 0
 endif
 
 " g:linters_disabled_filetypes can contain a list of filetypes that automatic
