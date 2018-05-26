@@ -16,12 +16,7 @@ Please notice me if there is any change.
 Installation
 ============
 
-Just run
-
+Install with vim-plug:
 ```
-cp plugin/* ~/.vim/plugin/
+Plug 'seeeturtle/coavim'
 ```
-
-and enjoy vim showing you results on save!
-
-Demo: https://asciinema.org/a/3gxhsunm4cap876j2bdrkw705
