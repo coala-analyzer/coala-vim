@@ -1,18 +1,17 @@
-coala-vim: coala extension for vim/gvim
+coavim: coala extension for vim8 & neovim
 =======================================
 
-coala is a simple static code analysis program that is completely modular.
+[coala](https://github.com/coala/coala) is a simple static code analysis program that is completely modular.
 
-This is a vim/gvim extension for coala.
+This is a vim8 & neovim plugin for coala.
+As you expected, this project supports async check.
 
-Simply save your file after loading it and you'll have coala running
-automatically and giving you the output in a popup.
 
 State
 =====
 
-This plugin is rather young. It is usable but beware of bugs! We'd love to hear
-from you, especially if any issues do occur!
+This project is fork of dead project, [coala-vim](https://github.com/coala/coala-vim).
+Please notice me if there is any change.
 
 Installation
 ============
