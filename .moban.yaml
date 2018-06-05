@@ -1,0 +1,13 @@
+overrides: coala.yaml
+
+language: vimscript
+gitignore_language: false
+
+configuration:
+  template_dir:
+    - ../coala-mobans/templates/
+    - ../coala-mobans/assets/
+  configuration: .moban.yaml
+  configuration_dir: ../coala-mobans/
+targets:
+  - .gitignore: coala-gitignore.jj2
